@@ -1,0 +1,21 @@
+{
+  "name": "Imooc",
+  "description": "运用MEAN开发的一个电影录入的网站",
+  "main": "app.js",
+  "authors": [
+    "merry"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "电影录入"
+  ],
+  "homepage": "index",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
