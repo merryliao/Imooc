@@ -1,0 +1,25 @@
+<%- include ../includes/header %>
+<div class="container">
+    <div class="row">
+        <form action="/user/signup"method="post">
+
+            <div class="form-body">
+                <div class="form-group">
+                    <label for="signupName">用户名</label>
+                    <input type="text" id="signupName" class="form-control"name="user[name]"/>
+
+                    <div class="form-group">
+                        <label for="signupPassword">密码</label>
+                        <input type="text" id="signupPassword" class="form-control"name="user[password]"/>
+                    </div>
+
+                </div>
+            </div>
+
+            <button class="btn btn-success" type="submit">提交</button>
+
+        </form>
+    </div>
+</div>
+
+<%- include ../includes/footer %>
