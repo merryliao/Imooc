@@ -55,5 +55,8 @@ app.listen(port);
 console.log("obj start on port"+ port);
 
 require('./config/routes')(app);
+<<<<<<< HEAD
 
 console.log("changed");
+=======
+>>>>>>> 6c0399ed82c3877243dcab5a8ed57e89e78cf832
